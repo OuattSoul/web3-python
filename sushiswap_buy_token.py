@@ -8,7 +8,7 @@ import uniSwapABI
 alchemy_http = "https://eth-rinkeby.alchemyapi.io/v2/API_KEY"
 
 
-web3 = Web3(Web3.HTTPProvider(rschain_http))
+web3 = Web3(Web3.HTTPProvider(alchemy_http))
 
 print(web3.isConnected())
 
