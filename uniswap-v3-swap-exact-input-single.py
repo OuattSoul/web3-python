@@ -13,7 +13,7 @@ WETH = "0xB4FBF271143F4FBf7B91A5ded31805e42b2208d6"
 # uniswap_v3_router = web3.to_checksum_address("0xE592427A0AEce92De3Edee1F18E0157C05861564")
 uniswap_v3_router = "0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45"
 
-etherscan = Etherscan('S53YAY5FJ8QRTTPTR4IV36ZBN8UZX7TFJJ')
+etherscan = Etherscan('ETHERSCAN_KEY')
 
 # load contracts
 uniswap_v3_router_abi = etherscan.get_contract_abi(uniswap_v3_router)
